@@ -21,7 +21,7 @@ Algoritmo Calcular_el_promedio_de_notas
 	prom <- sum/Notas
 	Escribir 'El promedio es ',prom
 	
-	Si prom>=70 Entonces
+	Si prom>=71 Entonces
 		Escribir 'El estudiante paso la materia'
 		
 	SiNo
