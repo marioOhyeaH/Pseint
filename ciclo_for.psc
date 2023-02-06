@@ -1,27 +1,34 @@
 Algoritmo Calcular_el_promedio_de_notas
+	Definir Notas Como Entero
+	Definir acum Como Entero
+	Definir prom Como Real
+	Definir sum Como Real
+	Definir n Como Real
 	
-	Escribir  "Cantidad de notas que deseas calcular para el promedio"
+	acum <- 1
+	sum <- 0
+	
+	Escribir 'Cantidad de notas que deseas calcular para el promedio'
 	Leer Notas
-	acum= entero
-	sum= real
-	Mientras acum<= Notas Hacer
-		Escribir "ingresar la nota numero :" , acum
-		leer n
-		sum <- suma + n
-		acum <- acum +1 
-	Fin Mientras
-	prom <- sum / Notas
-	Escribir "El promedio es ", prom
-	Si prom >= 71 Entonces
-		Escribir "El estudiante paso la materia"
-	SiNo
-		Escribir "El estudiante reprobo la materia"
+	
+	Mientras acum<=Notas Hacer
+		Escribir 'ingresar la nota numero :',acum
+		Leer n
+		sum <- sum+n
+		acum <- acum+1
+	FinMientras
+	
+	prom <- sum/Notas
+	Escribir 'El promedio es ',prom
+	
+	Si prom>=70 Entonces
+		Escribir 'El estudiante paso la materia'
 		
+	SiNo
+		Escribir 'El estudiante reaprobo la materia'
 		
 	FinSi
 	
 	
-	
-
-	
 FinAlgoritmo
+
