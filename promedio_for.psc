@@ -3,7 +3,7 @@ Algoritmo promedio
 	Definir cantidad Como Entero
 	Definir C,a,nota,pf Como Real
 	
-	Escribir 'algo'
+	Escribir 'Notas a calcular'
 	Leer cantidad
 	Para C<-1 Hasta cantidad Hacer
 		Escribir 'introduzca su nota',C
